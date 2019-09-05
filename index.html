@@ -1024,6 +1024,10 @@
 			<div class="row">
 				<div class="col-md-8">
 					<!-- post -->
+					<div id="instafeed"></div>
+					<!-- /post -->
+					
+					<!-- post -->
 					<div class="post post-row">
 						<a class="post-img" href="blog-post.html"><img src="./img/post-13.jpg" alt=""></a>
 						<div class="post-body">
@@ -1248,7 +1252,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.stellar.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/instafeed.min.js"></script>
 
+	<script type="text/javascript">
+		var feed = new Instafeed({
+			clientId: 'b13ab9ec4a6a43c3805ad2250bd1e798'
+		});
+		feed.run();
+	</script>
+	
 </body>
 
 </html>
